@@ -52,13 +52,13 @@ Then, we can analyze the certification performance of our method using the infor
 ## Citation
 You can cite our paper if you use this code for your research.
 ```
-@article{wang2024mmcert,
-  title={MMCert: Provable Defense against Adversarial Attacks to Multi-modal Models},
-  author={Wang, Yanting and Fu, Hongye and Zou, Wei and Jia, Jinyuan},
-  journal={arXiv preprint arXiv:2403.19080},
+@article{wang2024fcert,
+  title={FCert: Certifiably Robust Few-Shot Classification in the Era of Foundation Models},
+  author={Wang, Yanting and Zou, Wei and Jia, Jinyuan},
+  journal={arXiv preprint arXiv:2404.08631},
   year={2024}
 }
 ```
 
 ## Acknowledgement
-Our code is based on [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg).
+Our code is based on [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg) and [learn2learn](https://github.com/learnables/learn2learn/tree/master).
