@@ -18,14 +18,14 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Usage
 
-To evaluate the certification performance of FCert agains individual attack for $K=10$ and $C=10$, you run:
+To evaluate the certification performance of FCert agains individual attack for $K=15$ and $C=15$, you run:
 ```
-python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type ind --classes_per_it_val 10 --num_support_val 10
+python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type ind --classes_per_it_val 15 --num_support_val 15
 ```
 
-To evaluate the certification performance of FCert against group attack for $K=10$ and $C=10$, you run:
+To evaluate the certification performance of FCert against group attack for $K=15$ and $C=15$, you run:
 ```
-python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type group --classes_per_it_val 10 --num_support_val 10
+python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type group --classes_per_it_val 15 --num_support_val 15
 ```
 
 
