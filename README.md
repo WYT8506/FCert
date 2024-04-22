@@ -9,7 +9,7 @@ statistics techniques to estimate a robust distance for each class.
 <img src="figs/subsampling (1).png" width="80%"/>
 </p>
 
-In this repo, we implement certified segmentation for the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) using [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg) as the multi-modal model. We test our code in Python 3.8, CUDA 12.3, and PyTorch 2.2.2.
+In this repo, we implement FCert for CLIP on three benchmark datasets. We test our code in Python 3.8, CUDA 12.3, and PyTorch 2.2.2.
 ## Setup
 Please install [CLIP](https://github.com/openai/CLIP) by:
 ```
