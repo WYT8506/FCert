@@ -6,7 +6,7 @@ In this paper, we propose the first certified defense against data poisoning att
 statistics techniques to estimate a robust distance for each class. 
 
 <p align="center">
-<img src="figs/subsampling (1).png" width="80%"/>
+<img src="figs/main_fig_new" width="80%"/>
 </p>
 
 In this repo, we implement FCert for [CLIP](https://github.com/openai/CLIP) on three benchmark datasets. We test our code in Python 3.8, CUDA 12.3, and PyTorch 2.2.2.
