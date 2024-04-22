@@ -41,4 +41,4 @@ You can cite our paper if you use this code for your research.
 ```
 
 ## Acknowledgement
-Our code is based on [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg) and [learn2learn](https://github.com/learnables/learn2learn/tree/master).
+Our code is based on [Prototypical Networks](https://github.com/orobix/Prototypical-Networks-for-Few-shot-Learning-PyTorch) and [learn2learn](https://github.com/learnables/learn2learn/tree/master).
