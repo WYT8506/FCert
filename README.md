@@ -11,22 +11,9 @@ statistics techniques to estimate a robust distance for each class.
 
 In this repo, we implement certified segmentation for the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) using [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg) as the multi-modal model. We test our code in Python 3.8, CUDA 12.3, and PyTorch 2.2.2.
 ## Setup
-Please setup the KITTI Road Dataset and models trained with ablated inputs according to the following folder structure:
+Please install [CLIP](https://github.com/openai/CLIP) by:
 ```
-MultimodalCertification
- |-- checkpoints
- |  |-- kitti
- |  |  |-- CertificationMethod_net_RoadSeg.pth
- |-- data
- |-- datasets
- |  |-- kitti
- |  |  |-- calib
- |  |  |-- depth_u16
- |  |  |-- gt_image_2
- |  |  |-- image_2
- |-- output
- |-- figs
- ...
+pip install git+https://github.com/openai/CLIP.git
 ```
 Please check [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg) for more details about the KITTI Road Dataset. `image_2`, `gt_image_2` and `calib` can be downloaded from the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). `depth_u16` is based on the LiDAR data provided in the KITTI Road Dataset, and it can be downloaded from [here](https://drive.google.com/file/d/16ft3_V8bMM-av5khZpP6_-Vtz-kF6X7c/view?usp=sharing). Since the original testing set does not contain ground-truth labels, we split the original training set into a new training set and a testing set. The `output` folder is used to store the output of test_ensemble.py, which contains all the base model predictions for these ablated multi-modal inputs. They will later be used for certification purpose in certify.ipynb.
 
