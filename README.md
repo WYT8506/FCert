@@ -27,7 +27,7 @@ To evaluate the certification performance of FCert against group attack for $K=1
 ```
 python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type group --classes_per_it_val 15 --num_support_val 15
 ```
-
+You can use ```--file_path```specify the location where you want to save the certification result.
 
 ## Citation
 You can cite our paper if you use this code for your research.
