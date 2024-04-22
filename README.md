@@ -18,15 +18,9 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Usage
 
-To evaluate the certification performance of FCert, you run:
+To evaluate the certification performance of FCert on individual attack, you run:
 ```
-'python -u main.py \
-            --dataset_type cifarfs \
-            --model_type CLIP \
-            --certification_type ind \
-            --classes_per_it_val 10 \
-            --num_query_val 1 \
-            --num_support_val 10 '
+'python -u main.py --dataset_type cifarfs --model_type CLIP --certification_type ind --classes_per_it_val 10 --num_query_val 1 --num_support_val 10 '
 ```
 or
 ```
